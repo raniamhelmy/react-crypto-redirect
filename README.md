@@ -1,6 +1,6 @@
 # React Crypto App
 
-This is a simple website to Get Most Famous Cryptocurrency Coins Data; including Coin Name, Image, Rank, Market Current Price...etc. This data can also be loaded on a new page if a user enter the Coin icon.
+This is a simple website to Get Most Famous Cryptocurrency Coins Data; including Coin Name, Image, Rank, Market Current Price...etc. This data can also be loaded on a new page if a user press the Coin icon.
 
 Also, a search bar was added in order to allow the user to search for specific coin on coingecko DB. This project was created with React hooks, Context API and using [CoinGenco - The Most Comprehensive Cryptocurrency API](https://www.coingecko.com/en/api) for fetching user's requirment and get it's corresponding data.
 
