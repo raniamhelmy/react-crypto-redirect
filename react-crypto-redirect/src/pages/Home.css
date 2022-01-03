@@ -1,0 +1,22 @@
+.logo-image-container{
+    width:100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.logo-image-container img{
+    width:170px;
+    margin: auto;
+}
+
+.color{
+    color: #fff;
+}
+
+h1.color{
+    font-size: 1rem;
+    text-align: center;
+    font-family:"Roboto",sans-serif;
+    font-weight: 800;
+}

@@ -1,0 +1,79 @@
+.each--coin--container{
+    border:1px solid #3d4153;
+    max-width: 1100px;
+    margin:1rem auto; 
+    display: grid;
+    padding:0.5rem 1rem;
+    text-align: center;
+    justify-content: center;
+    grid-template-columns: repeat(7,1fr); 
+    background: #3d4153;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+.each--coin--img{
+   width:50px;
+   margin-top: 0.3rem;
+}
+
+p.color,p.header{
+   font-size: 1rem;
+   font-family:"Roboto", sans-serif ;
+   color:#fff;
+}
+
+p.color{
+   font-weight: 400;
+}
+  
+p.header{
+   font-weight: bold;
+}
+
+p.red{
+   font-size: 1rem;
+   font-family:"Roboto", sans-serif ;
+   font-weight: bold;
+   color:red;
+}
+
+p.green{
+  font-size: 1rem;
+   font-family:"Roboto", sans-serif ;
+   font-weight: bold;
+   color:green;
+}
+
+.no-coin{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    color:rgba(252, 252, 252,0.7);
+}
+
+span.title{
+    color:#cccccc;
+    font-weight: bold;
+}
+
+.link--coin{
+    text-decoration: none;
+}
+
+
+
+@media screen and (max-width:1200px){
+    .each--coin--container{
+      width:90%;
+    }
+  }
+  @media screen and (max-width:450px){
+    p.color, p.red, p.green,p.header{
+      font-size: 0.65rem;
+    }
+    .each--coin--img{
+      width: 35px;
+    }
+}
+ 
