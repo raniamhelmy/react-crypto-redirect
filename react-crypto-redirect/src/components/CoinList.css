@@ -12,6 +12,11 @@
     cursor: pointer;
 }
 
+.each--coin--container:hover{
+   border:1px solid #1d202e;
+   background: #1d202e;
+}
+
 .each--coin--img{
    width:50px;
    margin-top: 0.3rem;
